@@ -28,14 +28,31 @@
    margin-right: 10px;
 }
 
+.img-fluid{
+   margin-bottom: 20px;
+}
+
 .main-section{
    background: #ffffff;
    padding: 10px;
 }
 
+
+
 .navbar{
    border-bottom: 8px solid teal;
 }
+
+
+
+.tag{
+   position: absolute;
+   bottom: 100%;
+   width: inherit;
+   background: teal;
+   color: #ffffff;
+   margin-right: 80px;
+} 
 
 body{
    background-image: url(../images/background.jpg);
