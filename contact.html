@@ -1,52 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jesse Sosnicki | Contact</title>
-    <link rel="Stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="Stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-<div id="wrapper">
-    <nav role="navigation" class="navbar navbar-expand-lg navbar-dark bg-dark">  
-            <div class="navbar-header">
-                <ul class="nav navbar-nav topnav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Jesse Sosnicki</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio">Portfolio</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
 
-    <section id="main-section" class="grey-border content-width">
-        <h2 id="title" class="bold">Contact</h2>
-        <hr>
-        <section id="main-text" class="arial">
-            <p>Name</p>
-            <div class="box grey-border arial">Jesse Sosnicki</div>
-            <p>Email</p>
-            <div class="box grey-border arial">jesse.sosnicki@gmail.com</div>
-            <p>Message</p>
-            <textarea id="message-box" class="grey-border"></textarea>
-            <br>
-            <br>
-            <button class="teal-white arial">Submit</button>
-        </section>
-    </section>
-</div>
-<footer class="arial">Copyright</footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a id="name" class="nav-link" href="#">Jesse Sosnicki</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+        </ul>
+    </nav>
+
+  <div id="main-container" class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <section class="main-section border border-secondary">
+                    <h1 id="title">Contact</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" required="required" placeholder="Jesse Sosnicki">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="password" class="form-control" required="required" placeholder="jesse.sosnicki@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
+
 </html>
