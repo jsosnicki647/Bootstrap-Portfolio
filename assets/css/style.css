@@ -2,6 +2,10 @@
    box-sizing: border-box;
 }
 
+#img-gal{
+   max-width: 690px;
+}
+
 #main-container {
   padding-top: 52px;
   padding-bottom: 20px;
@@ -30,6 +34,7 @@
 
 .img-fluid{
    margin-bottom: 20px;
+   max-width: 320px;
 }
 
 .main-section{
@@ -37,22 +42,29 @@
    padding: 10px;
 }
 
-
-
 .navbar{
    border-bottom: 8px solid teal;
 }
 
-
-
 .tag{
    position: absolute;
    bottom: 100%;
-   width: inherit;
+   width: 100%;
    background: teal;
    color: #ffffff;
-   margin-right: 80px;
 } 
+
+.post-content {
+   left:0;
+   bottom:0;
+   width: 95.55%;
+   position: absolute;
+   max-width: 320px;
+}
+
+.thumbnail{
+   position:relative;
+}
 
 body{
    background-image: url(../images/background.jpg);
@@ -69,7 +81,7 @@ footer {
    border-top: 8px solid teal;
    height: 50px;
  }
+
+
+
  
-
-
-
