@@ -1,0 +1,101 @@
+body {
+    background-image: URL("../images/aboutmebackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+hr {
+    border: 5px solid darkturquoise;
+    margin: 0;
+}
+
+img {
+    float: left;
+    padding-right: .5em;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.heading {
+    border-bottom: 2px solid deeppink;
+    padding-bottom: .25em;
+    margin-bottom: .5em;
+}
+
+.project-description{
+    color: white;
+    margin-bottom: .25em;
+}
+
+.project-title{
+    margin-top: 1em;
+    color: darkturquoise;
+}
+
+.project-title:hover{
+    color: deeppink;
+}
+
+.nav-link:hover {
+    background-color: deeppink;
+}
+
+#title {
+    background-color: whitesmoke;
+    padding: 0;
+}
+
+#main-content-text {
+    background-color: rgb(107, 103, 103);
+    color: whitesmoke;
+    padding: 2em;
+}
+
+#main-content {
+    margin: 5em auto 1em;
+    border: 2px solid black;
+    padding: 0;
+}
+
+#pills-about-tab {
+    background-color: dodgerblue;
+}
+
+#pills-portfolio-tab,
+#pills-contact-tab {
+    color: whitesmoke;
+}
+
+#nav-wrapper {
+    padding-left: 5em;
+    background-color: rgb(107, 103, 103);
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    height: 3em;
+    z-index: 1000;
+}
+
+#pills-tab, .nav-link{
+    height:100%
+}
+
+#first-name {
+    color: dodgerblue;
+}
+
+#last-name {
+    color: deeppink
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-wrapper {
+        padding-left: 0;
+    }
+}
