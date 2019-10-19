@@ -2,6 +2,7 @@ body {
     background-image: URL("../images/aboutmebackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -53,7 +54,7 @@ a:hover{
     background-color: rgb(107, 103, 103);
     color: whitesmoke;
     padding: 2em;
-    height: 65vh;
+    height: 70vh;
     overflow: scroll;
 }
 
