@@ -16,6 +16,10 @@ img {
     padding-right: .5em;
 }
 
+p{
+    font-size: 1.5rem;
+}
+
 a:hover{
     text-decoration: none;
 }
